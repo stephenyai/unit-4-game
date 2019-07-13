@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Crystal Collector</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee|Cormorant+Garamond|Monoton&display=swap" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Crystal Collector</h1>
+	</header>
+
+	<section id="instruct">
+		<h3>How To Play</h2>
+		<p> 
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rutrum ex vitae scelerisque dapibus. Pellentesque efficitur nisl arcu, quis vestibulum sapien aliquet viverra. Proin convallis lacus nulla, non dapibus enim volutpat varius. Integer a dui lectus. Phasellus ut quam imperdiet, suscipit est a, hendrerit sem. Fusce et ultrices purus. Phasellus id commodo tellus, non rhoncus arcu. Sed consectetur efficitur placerat. Proin vitae ultrices risus, vel porttitor elit.
+		</p>
+		<p>
+			Nunc suscipit tempor efficitur. Maecenas vitae libero eu diam posuere lobortis non vitae ante. Pellentesque ultricies, metus cursus dapibus posuere, mauris nunc maximus sapien, vitae luctus urna diam eleifend augue. Duis condimentum odio eu mi congue, quis volutpat sem luctus. Vestibulum libero odio, ultricies ac dolor suscipit, bibendum vehicula est. 
+
+		</p>	
+	</section>
+
+	<section class="numbers">
+		<div id="random"></div>
+		<div id="guess"></div>
+	</section>
+
+	<div class="crystals">
+		<button id="green"><img src="assets/images/crystal-green.png" width="130px"></button>
+		<button id="orange"><img src="assets/images/crystal-orange.png" width="130px"></button>
+		<button id="blue"><img src="assets/images/crystal-blue.png" width="130px"></button>
+		<button id="red"><img src="assets/images/crystal-red.png" width="130px"></button>
+	</div>
+
+	<div class="score">
+		<p>Wins: </p>
+		<p>Losses: </p>
+	</div>
+
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>

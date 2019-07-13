@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*Header CSS */
+
+h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 40px;
+	text-align: center;
+	margin: 30px;
+	word-spacing: 10px;
+}
+
+#instruct {
+	display: block;
+	margin-bottom: 35px;
+}
+
+h3 {
+	font-family: 'Bungee', cursive;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: 'Cormorant Garamond', serif;
+	margin: 10px;
+}
+
+/*Numbers CSS */
+
+.numbers {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+
+#random {
+ 	border-radius: 25px;
+  	background: #a9a9c2;
+  	padding: 20px; 
+  	width: 250px;
+  	height: 150px; 
+  	opacity: 0.8;
+}
+
+#guess {
+ 	border-radius: 25px;
+  	background: #a8c2a7;
+  	padding: 20px; 
+  	width: 250px;
+  	height: 150px; 
+  	opacity: 0.8;
+  	margin-left: 4em;
+}
+
+/*Images CSS*/
+
+.crystals {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+.score p {
+	font-family: 'Bungee', cursive;
+	text-align: center;	
+}
+
+button {
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: white;
+	border: none;
+	text-decoration: none;
+
+;
+}
