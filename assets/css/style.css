@@ -20,11 +20,12 @@ h1 {
 #instruct {
 	display: block;
 	margin-bottom: 35px;
+	text-align: center;
+	line-height: 1.6;
 }
 
 h3 {
 	font-family: 'Bungee', cursive;
-	text-align: center;
 	margin-bottom: 20px;
 }
 
@@ -39,25 +40,30 @@ p {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 1em;
+	font-family: 'Concert One', cursive;
 }
 
 #random {
  	border-radius: 25px;
   	background: #a9a9c2;
-  	padding: 20px; 
+  	padding: 35px; 
   	width: 250px;
   	height: 150px; 
   	opacity: 0.8;
+  	text-align: center;
+  	font-size: 75px;
 }
 
 #guess {
  	border-radius: 25px;
   	background: #a8c2a7;
-  	padding: 20px; 
+  	padding: 35px; 
   	width: 250px;
   	height: 150px; 
   	opacity: 0.8;
-  	margin-left: 4em;
+  	margin-left: 1.5em;
+  	text-align: center;
+  	font-size: 75px;
 }
 
 /*Images CSS*/
@@ -67,7 +73,7 @@ p {
 	justify-content: center;
 	background-color: white;
 }
-
+	
 .score p {
 	font-family: 'Bungee', cursive;
 	text-align: center;	
@@ -79,6 +85,18 @@ button {
 	background-color: white;
 	border: none;
 	text-decoration: none;
-
-;
+	outline: none;
 }
+
+img {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+

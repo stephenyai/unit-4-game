@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bungee|Cormorant+Garamond|Monoton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
 </head>
@@ -21,12 +22,12 @@
 	<section id="instruct">
 		<h3>How To Play</h2>
 		<p> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rutrum ex vitae scelerisque dapibus. Pellentesque efficitur nisl arcu, quis vestibulum sapien aliquet viverra. Proin convallis lacus nulla, non dapibus enim volutpat varius. Integer a dui lectus. Phasellus ut quam imperdiet, suscipit est a, hendrerit sem. Fusce et ultrices purus. Phasellus id commodo tellus, non rhoncus arcu. Sed consectetur efficitur placerat. Proin vitae ultrices risus, vel porttitor elit.
+			1) You will be shown a random number at the start of the game. <br>
+			2) There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br>
+			3) You win the game by matching your total score to the random number. You lose if your total score goes above the random number. <br>
+			4) The value of each crystal is hidden until clicked. <br>
+			5) Each time the game starts, the game will change the values of each crystal.
 		</p>
-		<p>
-			Nunc suscipit tempor efficitur. Maecenas vitae libero eu diam posuere lobortis non vitae ante. Pellentesque ultricies, metus cursus dapibus posuere, mauris nunc maximus sapien, vitae luctus urna diam eleifend augue. Duis condimentum odio eu mi congue, quis volutpat sem luctus. Vestibulum libero odio, ultricies ac dolor suscipit, bibendum vehicula est. 
-
-		</p>	
 	</section>
 
 	<section class="numbers">
@@ -42,8 +43,15 @@
 	</div>
 
 	<div class="score">
-		<p>Wins: </p>
-		<p>Losses: </p>
+		<p id="alert"></p>
+		<p>
+			Wins:
+			<span id="wins"></span> 
+		</p>
+		<p>
+			Losses: 
+ 			<span id="losses"></span>
+		</p>
 	</div>
 
 	<script src="assets/javascript/game.js"></script>
