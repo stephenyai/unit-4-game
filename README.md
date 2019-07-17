@@ -1,6 +1,6 @@
 # unit-4-game
 
-##Crystal Collector 
+## Crystal Collector 
 
 __Using **HTML**, **CSS**, and **JQuery** to create number generated game__
 
